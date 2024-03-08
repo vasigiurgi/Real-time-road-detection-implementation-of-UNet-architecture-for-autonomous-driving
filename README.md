@@ -6,3 +6,6 @@ This paper presents a real-time implementation workflow of neural networks for a
 
 # Architecture 
 ![alt text](https://github.com/vasigiurgi/Real-time-road-detection-with-Unet-for-autonomous-driving/blob/master/images/unet.png)
+
+# Real-time implementation 
+In the emebbeded system, RTMaps has been used. Within then platform, the user can create a Python Bridge where the model is used to make the predictions. Due to GPU limitations, the prediction time was quite slow, however the software works with GPU, which eventually could improve the prediction of the frames per second. 
